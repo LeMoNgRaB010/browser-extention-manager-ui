@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*:root {         
+         
+    --custombg-body : linear-gradient(180deg, #040918 0%, #091540 100%);
+      
+}*/
+
+@layer base{
+
+    html[data-theme="dark"]{
+       --custombg-body:linear-gradient(180deg, #040918 0%, #091540 100%) ;
+       --bg-items: hsl(226, 25%, 17%); 
+       --icon-bg: hsl(225, 23%, 24%);
+       --icon-hov: hsl(226, 11%, 37%);
+       --btn-bg:  hsl(225, 23%, 24%);
+       --text-col: hsl(200, 60%, 99%);
+       --toggle-bg-on: hsl(3, 86%, 64%);
+       --toggle-bg-off: hsl(225, 23%, 24%);
+       --bg-ext: hsl(226, 25%, 17%);
+       --div-text-col: hsl(0, 0%, 78%);
+       --active-btn:hsl(3, 86%, 64%);
+       
+    }
+    html[data-theme="light"]{
+       --custombg-body:linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%) ;       
+       --bg-items: hsl(200, 60%, 99%);
+       --icon-bg: hsl(0, 0%, 93%);
+       --icon-hov: hsl(0, 0%, 78%);
+       --btn-bg:hsl(200, 60%, 99%);
+       --text-col:hsl(227, 75%, 14%) ;
+        --toggle-bg-on:hsl(3, 77%, 44%);
+        --toggle-bg-off:hsl(0, 0%, 78%) ;
+        --bg-ext: hsl(200, 60%, 99%);
+        --div-text-col:hsl(226, 11%, 37%); 
+        --active-btn:hsl(3, 77%, 44%);
+    }
+
+
+
+}
+
+
+
+
+@layer  utilities{
+    no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+
+}
+
+
+.my_focus:focus { /*focus style */
+
+    @apply [outline-style:solid] outline-1 outline-red-custom-200 outline-offset-1 border-transparent;
+}
+
+.active{
+
+   @apply bg-active-btn;
+}
+
+.selected{
+ 
+ @apply bg-red-custom-200 text-custom-800;
+
+ }
+
+
+/*@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@custom-variant light (&:where([data-theme=light], [data-theme=light] *));*/
+

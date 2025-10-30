@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="w-full h-full no-scrollbar" data-theme="dark"   lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Browser-Extention-Manager-UI/assets/images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test-vite</title>
+    <script type="module" crossorigin src="/Browser-Extention-Manager-UI/assets/index-gDNQwQlB.js"></script>
+    <link rel="stylesheet" crossorigin href="/Browser-Extention-Manager-UI/assets/index-JnRNtsai.css">
+  </head>
+  <body  class=" m-0 p-0 box-border w-full h-full bg-custombg-body no-scrollbar">
+      
+    <div class="flex flex-col relative w-4/5 p-0 mt-4 mx-auto items-center" >
+         <nav class="flex flex-row w-full justify-between m-0 bg-bg-items shadow-lg p-4 rounded-3xl  "> 
+          <img src="/Browser-Extention-Manager-UI/assets/images/logo.svg" class=" xs:w-2/4 w-1/7 p-2 text-white"  alt="icon" > 
+          <img tabindex="0" id="switch_btn" data-theme="dark" class="my_focus cursor-pointer relative p-4 bg-icon-bg rounded-xl hover:bg-icon-hov"  src="/Browser-Extention-Manager-UI/assets/images/icon-sun.svg"> 
+        </nav>  
+         <div class=" flex xs:flex-col sm:flex-col xs:mt-4 flex-row sm:items-center  w-full mt-10 justify-between  xs:items-center xs:justify-center  ">
+          <h1 class="text-3xl font-noto font-bold text-text-col text-nowrap ">Extontion List</h1> 
+          <div class="flex gap-x-5 text-base sm:mt-4 xs:mt-4 buttons"> 
+            <span data-type="All" id="all" tabindex="0"   class="  bg-btn-bg shadow-lg text-text-col hover:bg-custom-600 my_focus cursor-pointer px-4 py-2  rounded-3xl border-solid border-custom-0 border-[0.7px] font-noto font-normal">All</span> 
+            <span data-type="Active" id="active" tabindex="0" class="my_focus bg-btn-bg shadow-lg text-text-col hover:bg-custom-600 cursor-pointer px-4 py-2 rounded-3xl border-solid border-custom-0 border-[0.7px] font-noto font-normal ">Active</span>
+            <span data-type="Inactive" id="inactive" tabindex="0" class="slected my_focus shadow-lg  text-text-col bg-btn-bg hover:bg-custom-600 cursor-pointer px-4 py-2 xs:m-auto xs:p-auto rounded-3xl border-[0.7px] font-noto font-normal">Inactive</span>
+          </div>
+         </div>
+           
+            <div class="grid grid-cols-3 xs:grid-cols-1 md:grid-cols-1 gap-4 p-4 mt-4  w-full h-full">
+                  
+               <div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full font-noto "> 
+                        <img class="w-9 h-auto" src="/Browser-Extention-Manager-UI/assets/images/logo-devlens.svg" alt="icon">
+                         <div class="ml-2 w-5/7 xs:w-4/7">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">DevLens</h1>
+                            <span class="text-content-col" >Quickly inspect page layouts and
+                            visualize element boundaries.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12"> 
+                        <span class="px-4 py-[0.2rem] border-solid  border-custom-300 border-[0.08rem] rounded-3xl text-text-col " >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>             
+
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full font-noto "> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-style-spy.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">DevLens</h1>
+                            <span class="text-content-col">Instantly analyze and copy CSS from
+any webpage element.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12"> 
+                        <span class="text-text-col px-4 py-[0.2rem] border-solid border-custom-300 border-[0.08rem] rounded-3xl" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-speed-boost.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">DevLens</h1>
+                            <span class="text-content-col">Optimizes browser resource usage to
+accelerate page loadina.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-json-wizard.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">JSONWizard</h1>
+                            <span class="text-content-col">Formats, validates, and prettifies
+JSON responses in-browser.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-tab-master-pro.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">TabMaster Pro</h1>
+                            <span class="text-content-col">Organizes browser tabs into groups
+and sessions.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-viewport-buddy.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">ViewportBuddy</h1>
+                            <span class="text-content-col">Simulates various screen resolutions
+directly within the browser.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-markup-notes.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">Markup Notes</h1>
+                            <span class="text-content-col">Enables annotation and notes directlv
+onto webpages for collaborative
+debuggina.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-grid-guides.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">GridGuides</h1>
+                            <span class="text-content-col">Overlay customizable grids and
+alignment guides on any webpage.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-palette-picker.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">Palette Picker</h1>
+                            <span class="text-content-col">Instantlv extracts color palettes from
+any webpage.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-link-checker.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">LinkChecer</h1>
+                            <span class="text-content-col">Scans and hiahliahts broken links on
+anv dage.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card "  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-dom-snapshot.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">DOM Snapshot</h1>
+                            <span class="text-content-col">Capture and export DOM structures
+quickly.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+<!-- start div-->
+            
+<div class=" flex flex-col p-4 shadow-xl w-full bg-bg-ext rounded-3xl border-solid border-custom-300 border-[0.03rem] tool-card"  data-state="Inactive">
+                     
+                      <div class="flex flex-row w-full  font-noto"> 
+                        <img class=" w-9 h-auto  xs:w-2/5 " src="/Browser-Extention-Manager-UI/assets/images/logo-console-plus.svg" alt="icon">
+                         <div class="ml-2">
+                            <h1 class="font-noto font-bold text-text-col text-wrap sm:font-normal">ConsolePlus</h1>
+                            <span class="text-content-col">Enhanced developer console with
+advanced filtering and logging.</span>
+                         </div>
+                      </div>
+
+                      <div class="flex flex-row justify-between mt-12 "> 
+                        <span class=" px-4  py-[0.2rem]  border-solid border-custom-300 border-[0.08rem] rounded-3xl text-text-col" >Remove</span>  
+                        <label class="mt-1 relative inline-block w-12 h-6 cursor-pointer">
+                            <input type="checkbox" class="sr-only peer">
+                            <div class="w-full h-full bg-toggle-bg-off rounded-full transition-colors peer-checked:bg-toggle-bg-on"></div>
+                            <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-6 peer-checked:bg-toggle-b"></span>
+                         </label>   
+                      </div>  
+              </div>
+
+<!--end div-->
+
+
+            </div>
+
+
+
+    </div>
+           
+    <script src="/src/script.js"></script>
+  </body>
+</html>
+
