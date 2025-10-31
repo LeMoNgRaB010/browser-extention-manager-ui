@@ -9,12 +9,12 @@
       if(theme=="dark"){
            
          swtbtn.dataset.theme="light";
-         swtbtn.src="/assets/images/icon-moon.svg";
+         swtbtn.src="public/assets/images/icon-moon.svg";
          document.documentElement.dataset.theme="light";
       }else{
 
          swtbtn.dataset.theme="dark";
-         swtbtn.src="/assets/images/icon-sun.svg";
+         swtbtn.src="public/assets/images/icon-sun.svg";
          document.documentElement.dataset.theme="dark";
          
         }
