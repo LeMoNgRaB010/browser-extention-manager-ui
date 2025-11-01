@@ -9,12 +9,12 @@
       if(theme=="dark"){
            
          swtbtn.dataset.theme="light";
-         swtbtn.src="public/assets/images/icon-moon.svg";
+         swtbtn.src="/browser-extention-manager-ui/assets/images/icon-moon.svg";
          document.documentElement.dataset.theme="light";
       }else{
 
          swtbtn.dataset.theme="dark";
-         swtbtn.src="public/assets/images/icon-sun.svg";
+         swtbtn.src="/browser-extention-manager-ui/assets/images/icon-sun.svg";
          document.documentElement.dataset.theme="dark";
          
         }
@@ -22,7 +22,19 @@
 
  } );
 
+ //remove button
+ const rmvbtn=document.querySelectorAll(".remove-btn");
 
+ rmvbtn.forEach((btn)=>{
+     
+   btn.addEventListener("click",()=>{
+
+        const card = btn.closest(".tool-card");
+    card.remove(); // c
+
+   });
+
+ });
  
  const all=document.getElementById("all");
 const btns=document.querySelectorAll(".buttons span");
@@ -49,7 +61,7 @@ check.forEach( (toggle)=>{       // data satate for th cards
 check.forEach(checkbox => {
   checkbox.addEventListener('change', () => {
     update_cards();
-    filtercard(temp);  // temp holds current filter, so display updates live
+    filtercard(temp);  
   });
 });
 
